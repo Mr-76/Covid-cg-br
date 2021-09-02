@@ -23,4 +23,5 @@ class CovidSpider(scrapy.Spider):
             }
 #.replace('<h1 class="titulo-recebidas-aplicadas">','').replace('/b','').replace('<','').replace('b>','').replace('>','').replace('/h1',''),
 #limpa dados
-#criat funçao
+#criat funçaoi
+#c

@@ -1,0 +1,7 @@
+[Unit]
+Description=Faz scraping pagina da cidade pelos dados de covid 
+[Service] 
+
+Type=simple
+ExecStart=/usr/bin/python /home/{user}/Git/Covid-cg-br/COVID/COVID/spiders/covid_spider.py
+Type=oneshot

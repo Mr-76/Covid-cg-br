@@ -1,7 +1,4 @@
-import os
-comand1 = ('cd /home/cremoso/Git/Covid-cg-br/COVID')
-comand2 = ('scrapy covid -o covid.json')
-mundar_Diretorio = os.popen(comand1)
-#executando_scrapy = os.popen(comand2)
-#fechando = mundar_Diretorio.close()
-#fechando = executando_scrapy.close()
+import subprocess
+import time
+run = subprocess.run(' cd /home/cremoso/Git/covid_cg-br/Covid-cg-br/COVID; scrapy crawl covid -o covid.json', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+print(run)

@@ -22,7 +22,7 @@ for index in range(tamanho):
         continue
 
     for key in transforma_paradict:
-        
+        lista_auxiliar = []
 
         for linha in transforma_paradict[key]: 
 
@@ -34,12 +34,12 @@ for index in range(tamanho):
             c = c.replace('</b>','')
             c = c.replace('<h2 class="valor-recebidas-aplicadas">','')
             c = c.replace('</h2>','')
+            
+            lista_auxiliar.append(c)
+#           print(c,'limpo')
+        transforma_paradict[key] = [lista_auxiliar]
 
-
-#            print(c,'limpo')
-            transforma_paradict[key] = [c]
-
-            print(transforma_paradict)
+        print(transforma_paradict)
    
 
 

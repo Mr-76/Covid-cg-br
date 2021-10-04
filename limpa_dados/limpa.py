@@ -9,7 +9,7 @@ with open ('covid.json','r') as file:
 tamanho = len(a)
 
 for index in range(tamanho):
-    print(a[index])
+    #print(a[index])
     if a[index] in ('][','[',']',']\n','][\n'):
         continue
     
@@ -23,17 +23,24 @@ for index in range(tamanho):
 
     for key in transforma_paradict:
         
-        string = transforma_paradict[key][0]
 
-        c = string.replace('<h1 class="titulo-recebidas-aplicadas">','')
-        c = c.replace('</h1>','')
-        c = c.replace('<b>','')
-        c = c.replace('</b>','')
-        print(c,'limpo')
+        for linha in transforma_paradict[key]: 
 
-        transforma_paradict[key] = [c]
+            string = linha
 
-        print(transforma_paradict)
+            c = string.replace('<h1 class="titulo-recebidas-aplicadas">','')
+            c = c.replace('</h1>','')
+            c = c.replace('<b>','')
+            c = c.replace('</b>','')
+            c = c.replace('<h2 class="valor-recebidas-aplicadas">','')
+            c = c.replace('</h2>','')
+
+
+#            print(c,'limpo')
+            transforma_paradict[key] = [c]
+
+            print(transforma_paradict)
+   
 
 
 

@@ -6,10 +6,10 @@ listadata = []
 listavalores = []
 
 def totalu(lista):
-"""
+    """
 funcao organiza a bagunca que os dados estao orgaziados em 2 listas com respectivasdatas e valores. Cada funcao faz a mesma coisa so muda o titulo que por sinal
 fiz um scrap bem porco e acabei atrapalhando mais do que deixando simple
-"""
+    """
     listadata = []
     listavalores = []
     TITULO = "Total de does unicas"    
@@ -19,7 +19,7 @@ fiz um scrap bem porco e acabei atrapalhando mais do que deixando simple
             if b != 'value':
                     listadata.append(b)
     print(listadata,"\n",listavalores)
-
+    return (listadata,listavalores)
 def total1d(lista):
     listadata = []
     listavalores = []
@@ -30,6 +30,7 @@ def total1d(lista):
             if b != 'value':
                     listadata.append(b)
     print(listadata,"\n",listavalores)
+    return (listadata,listavalores)
 
 
 def total2d(lista):
@@ -42,6 +43,7 @@ def total2d(lista):
             if b != 'value':
                     listadata.append(b)
     print(listadata,"\n",listavalores)
+    return (listadata,listavalores)
 
 
 def totalvacinado(lista):
@@ -54,6 +56,7 @@ def totalvacinado(lista):
             if b != 'value':
                     listadata.append(b)
     print(listadata,"\n",listavalores)
+    return (listadata,listavalores)
 
 
 totalu(lista)

@@ -6,10 +6,10 @@ listadata = []
 listavalores = []
 
 def totalu(lista):
-"""
+    """
 funcao organiza a bagunca que os dados estao orgaziados em 2 listas com respectivasdatas e valores. Cada funcao faz a mesma coisa so muda o titulo que por sinal
 fiz um scrap bem porco e acabei atrapalhando mais do que deixando simple
-"""
+    """
     listadata = []
     listavalores = []
     TITULO = "Total de does unicas"    

@@ -24,6 +24,7 @@ plt.show()
 plt.plot(totalv[0],totalv[1])
 plt.ylabel("total")
 plt.show()
+
 """
 print("dosees unicas")
 print(doseUnica[1])
@@ -36,6 +37,7 @@ def mediaPordata(titulo,dado,ponto0,ponto1):
     dado é lista com os valores
     ponto0 e ponto 1 sao as datas
     por fim a funtaçao retorna a media no periodo de tempo especificado
+
     """
     print("---------",titulo,"---------")
     

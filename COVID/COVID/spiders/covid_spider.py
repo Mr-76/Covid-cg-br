@@ -18,8 +18,7 @@ class CovidSpider(scrapy.Spider):
             print(linha.css('.titulo-recebidas-aplicadas').getall())
             
             yield {
-                data_hj: linha.css('.titulo-recebidas-aplicadas').getall(),
-                'values':linha.css('.valor-recebidas-aplicadas').getall()
+                    data_hj: linha.css('.titulo-recebidas-aplicadas').getall(),'value':linha.css('.valor-recebidas-aplicadas').getall()
             }
 #.replace('<h1 class="titulo-recebidas-aplicadas">','').replace('/b','').replace('<','').replace('b>','').replace('>','').replace('/h1',''),
 #limpa dados

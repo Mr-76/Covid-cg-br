@@ -1,69 +1,62 @@
-#programar orgazina os dados em listas de acordo com os seus titulos
+#coding = utf-8
+"""this code organizes some data"""
 import dados
+
 lista = dados.listaCOVID
 
-listadata = []
-listavalores = []
-
-def totalu(lista):
-    """
-funcao organiza a bagunca que os dados estao orgaziados em 2 listas com respectivasdatas e valores. Cada funcao faz a mesma coisa so muda o titulo que por sinal
-fiz um scrap bem porco e acabei atrapalhando mais do que deixando simple
+def totalu(listatotal):
+    """funcao organiza a bagunca que os dados estao orga
+    ziados em 2 listas com respectivasdatas e valores.Ca
+    is do que deixando simples.
     """
     listadata = []
     listavalores = []
-    TITULO = "Total de does unicas"    
-    for i in lista:
+    titulo="Total de does unicas"
+    for i in listatotal:
         listavalores.append(i['value'][0][0])
-        for b in i:
-            if b != 'value':
-                    listadata.append(b)
+        for key in i:
+            if key != 'value':
+                listadata.append(key)
     print(listadata,"\n",listavalores)
-    return (listadata,listavalores)
-def total1d(lista):
+    return (listadata,listavalores,titulo)
+
+def total1d(listatotal):
+    """total de 1 doses"""
     listadata = []
     listavalores = []
-    TITULO = "Total de 1 doses"    
-    for i in lista:
+    titulo = ("Total de 1 doses")
+    for i in listatotal:
         listavalores.append(i['value'][0][1])
-        for b in i:
-            if b != 'value':
-                    listadata.append(b)
+        for key in i:
+            if key != 'value':
+                listadata.append(key)
     print(listadata,"\n",listavalores)
-    return (listadata,listavalores)
-
-
-def total2d(lista):
+    return (listadata,listavalores,titulo)
+def total2d(listatotal):
+    """total 2 doses"""
     listadata = []
     listavalores = []
-    TITULO = "Total de 2 doses"    
-    for i in lista:
+    titulo = "Total de 2 doses"
+    for i in listatotal:
         listavalores.append(i['value'][0][2])
-        for b in i:
-            if b != 'value':
-                    listadata.append(b)
+        for key in i:
+            if key != 'value':
+                listadata.append(key)
     print(listadata,"\n",listavalores)
-    return (listadata,listavalores)
-
-
-def totalvacinado(lista):
+    return (listadata,listavalores,titulo)
+def totalvacinado(listatotal):
+    """total de vacinados"""
     listadata = []
     listavalores = []
-    TITULO = "Percentual vacinado"    
-    for i in lista:
+    titulo="Percentual vacinado"
+    for i in listatotal:
         listavalores.append(i['value'][0][3])
-        for b in i:
-            if b != 'value':
-                    listadata.append(b)
+        for key in i:
+            if key != 'value':
+                listadata.append(key)
     print(listadata,"\n",listavalores)
-    return (listadata,listavalores)
-
-
+    return (listadata,listavalores,titulo)
 totalu(lista)
 total1d(lista)
 total2d(lista)
 totalvacinado(lista)
-
-
-
-

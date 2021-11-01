@@ -1,6 +1,9 @@
-import organizaemlistas
 import matplotlib.pyplot as plt
+<<<<<<< HEAD
 
+=======
+import organizaemlistas
+>>>>>>> checagem_conveçoes
 listaComdataevalores = organizaemlistas.dados.listaCOVID#todos os dados
 doseUnica = organizaemlistas.totalu(listaComdataevalores) #lista com data e dados
 #a funcao totalu chama a organizaçao dos dado sobre doses unicas aplicadas
@@ -24,6 +27,7 @@ plt.show()
 plt.plot(totalv[0],totalv[1])
 plt.ylabel("total")
 plt.show()
+<<<<<<< HEAD
 
 """
 print("dosees unicas")
@@ -66,3 +70,5 @@ mediaPordata("doses unicas",doseUnica,'05/09/2021','018/010/2021')
 
 
 
+=======
+>>>>>>> checagem_conveçoes

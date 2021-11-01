@@ -1,0 +1,12 @@
+
+
+[Unit]
+Description=scraping of the local site data about covid
+Wants=sscrapingcovid.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/alarm/GIT/Covid-cg-br/COVID/activatescrap.sh 
+
+[Install]
+WantedBy=multi-user.target

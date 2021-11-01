@@ -1,9 +1,0 @@
-.
-..
-activatescrap.sh
-COVID
-covid.json
-dados.py
-limpa.py
-scrapy.cfg
-txt.txt

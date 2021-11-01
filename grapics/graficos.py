@@ -1,5 +1,5 @@
-import organizaemlistas
 import matplotlib.pyplot as plt
+import organizaemlistas
 listaComdataevalores = organizaemlistas.dados.listaCOVID#todos os dados
 doseUnica = organizaemlistas.totalu(listaComdataevalores) #lista com data e dados
 #a funcao totalu chama a organizaçao dos dado sobre doses unicas aplicadas
@@ -22,7 +22,3 @@ plt.show()
 plt.plot(totalv[1],totalv[0])
 plt.ylabel("total")
 plt.show()
-
-
-
-

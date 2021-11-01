@@ -1,12 +1,13 @@
-import scrapy
 from datetime import datetime
-data_hj = datetime.now()
+import scrapy
+DATA_HJ = datetime.now()
 
-data_hj = ("0{}/0{}/{}").format(data_hj.day,data_hj.month,data_hj.year)
-print(data_hj,"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+DATA_HJ = ("0{}/0{}/{}").format(DATA_HJ.day,DATA_HJ.month,DATA_HJ.year)
+print(DATA_HJ,"Data")
 
-#data_hj_config = data_hj.strftime(‘%d/%m/%Y’)
+
 class CovidSpider(scrapy.Spider):
+    """Spider que faz o scraping do covid """
     name = "covid"
     start_urls = [
         'https://campinagrande.pb.gov.br/coronavirus/'
@@ -16,11 +17,8 @@ class CovidSpider(scrapy.Spider):
         for linha in response.css('html'):
             print('PRINTANDO OOOOOOO')
             print(linha.css('.titulo-recebidas-aplicadas').getall())
-            
+
             yield {
-                    data_hj: linha.css('.titulo-recebidas-aplicadas').getall(),'value':linha.css('.valor-recebidas-aplicadas').getall()
+            DATA_HJ: linha.css('.titulo-recebidas-aplicadas').getall(),
+            'value':linha.css('.valor-recebidas-aplicadas').getall()
             }
-#.replace('<h1 class="titulo-recebidas-aplicadas">','').replace('/b','').replace('<','').replace('b>','').replace('>','').replace('/h1',''),
-#limpa dados
-#criat funçaoi
-#c

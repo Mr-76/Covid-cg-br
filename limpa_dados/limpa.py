@@ -7,9 +7,6 @@ with open ('covid.json','r') as file:
 
 
 tamanho = len(a)
-print(type(a))
-print('tipo')
-
 lista_contendoOsDicionarios = []
 
 for index in range(tamanho):
@@ -21,8 +18,6 @@ for index in range(tamanho):
     try:
     
         transforma_paradict = ast.literal_eval(a[index])
-        #print(transforma_paradict,"\n")
-#        time.sleep(1) #pra debug
         
     except:
         continue
@@ -42,15 +37,8 @@ for index in range(tamanho):
             c = c.replace('</h2>','')
             
             lista_auxiliar.append(c)
-#           print(c,'limpo')
         
         transforma_paradict[key] = [lista_auxiliar]
-        #print('resultado final ')
-        #print(transforma_paradict)
-        #print(type(transforma_paradict))
-    #    for i in transforma_paradict:
-            #print(i)
-    #time.sleep(1)
     print(transforma_paradict)
     lista_contendoOsDicionarios.append(transforma_paradict)
 
@@ -59,11 +47,3 @@ with open('dados.py','w') as arquivo:
     string = 'listaCOVID = '+string 
     arquivo.write(string)
 
-#for i in a:
- #   if a in ('][\n','[\n'):
-  #      continue 
-   # c = i.replace('<h1 class="titulo-recebidas-aplicadas">','')
-   # c = c.replace('</h1>','')
-   # c = c.replace('<b>','')
-   # c = c.replace('</b>','')
-   # print(c)

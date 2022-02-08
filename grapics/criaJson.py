@@ -17,7 +17,7 @@ TotalV = organizaemlistas.totalvacinado(listaComdataevalores)[1]
 
 listaJson = []
 
-for i in range(25):
+for i in range(len(data)):
     dicionario = {}
     dicionario["Data"] = data[i]
     dicionario["Doses Unicas"] = int(doseUnica[i])
@@ -26,5 +26,5 @@ for i in range(25):
     dicionario["Total percentagem"] = int(TotalV[i].replace("%",""))
     listaJson.append(dicionario)
 
-with open('datos.json', 'w', encoding='utf-8') as file:
+with open('dados.json', 'w', encoding='utf-8') as file:
         json.dump(listaJson, file, ensure_ascii=False, indent=1)

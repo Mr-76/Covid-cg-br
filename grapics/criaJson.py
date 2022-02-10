@@ -1,6 +1,19 @@
 import json
 import organizaemlistas
 
+def corrige_string(lista_data):
+    for index_data in range(len(lista_data)):    
+        int_list = []
+        string = lista_data[index_data].split("/")
+        for index_split in range(len(string)):
+            to_int = int(string[index_split])
+            int_list.append(to_int)
+        lista_data[index_data] = ("{}/{}/{}".format(int_list[0]
+                                            ,int_list[1]
+                                            ,int_list[2]))
+
+
+
 DADOS = organizaemlistas.dados.listaCOVID
 listaComdataevalores = organizaemlistas.dados.listaCOVID#todos os dados
 doseUnica = organizaemlistas.totalu(listaComdataevalores) #lista com data e dados
@@ -10,6 +23,8 @@ totalv = organizaemlistas.totalvacinado(listaComdataevalores) #lista com data e 
 
 
 data = v1dose[0]
+corrige_string(data)
+
 doseUnica = organizaemlistas.totalu(listaComdataevalores)[1]
 dose1d = organizaemlistas.total1d(listaComdataevalores)[1]
 dose2d = organizaemlistas.total2d(listaComdataevalores)[1]

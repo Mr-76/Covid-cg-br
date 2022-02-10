@@ -56,7 +56,7 @@ def totalvacinado(listatotal):
                 listadata.append(key)
     print(listadata,"\n",listavalores)
     return (listadata,listavalores,titulo)
-totalu(lista)
+#totalu(lista)
 total1d(lista)
 total2d(lista)
 totalvacinado(lista)

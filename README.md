@@ -16,7 +16,7 @@ aprendendo scrapy :)
  
  # TABELA
  ## ainda preciso corrigir alguns dados malucos ;)
- <table  border="1" style="border-radius: 10px;" class="dataframe">
+ <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -29,15 +29,7 @@ aprendendo scrapy :)
   </thead>
   <tbody>
     <tr>
-      <th>1</th>
-      <td>5/9/2021</td>
-      <td>6260</td>
-      <td>258714</td>
-      <td>95869</td>
-      <td>86</td>
-    </tr>
-    <tr>
-      <th>2</th>
+      <th>0</th>
       <td>6/9/2021</td>
       <td>6260</td>
       <td>263318</td>
@@ -45,7 +37,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>1</th>
       <td>10/9/2021</td>
       <td>6260</td>
       <td>263318</td>
@@ -53,7 +45,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>2</th>
       <td>11/9/2021</td>
       <td>6260</td>
       <td>263318</td>
@@ -61,7 +53,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>3</th>
       <td>12/9/2021</td>
       <td>6260</td>
       <td>263318</td>
@@ -69,7 +61,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>4</th>
       <td>16/9/2021</td>
       <td>6260</td>
       <td>272627</td>
@@ -77,7 +69,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>5</th>
       <td>19/9/2021</td>
       <td>6260</td>
       <td>272627</td>
@@ -85,7 +77,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>6</th>
       <td>20/9/2021</td>
       <td>6260</td>
       <td>272627</td>
@@ -93,7 +85,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>7</th>
       <td>21/9/2021</td>
       <td>6260</td>
       <td>277791</td>
@@ -101,7 +93,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>8</th>
       <td>22/9/2021</td>
       <td>6260</td>
       <td>277791</td>
@@ -109,7 +101,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>11</th>
+      <th>9</th>
       <td>23/9/2021</td>
       <td>6260</td>
       <td>277791</td>
@@ -117,7 +109,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>10</th>
       <td>24/9/2021</td>
       <td>6260</td>
       <td>277791</td>
@@ -125,7 +117,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>11</th>
       <td>25/9/2021</td>
       <td>6260</td>
       <td>277791</td>
@@ -133,7 +125,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>12</th>
       <td>26/9/2021</td>
       <td>6260</td>
       <td>277791</td>
@@ -141,7 +133,7 @@ aprendendo scrapy :)
       <td>88</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>13</th>
       <td>27/9/2021</td>
       <td>6265</td>
       <td>285211</td>
@@ -149,7 +141,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>14</th>
       <td>28/9/2021</td>
       <td>6265</td>
       <td>285211</td>
@@ -157,7 +149,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>17</th>
+      <th>15</th>
       <td>29/9/2021</td>
       <td>6265</td>
       <td>285211</td>
@@ -165,7 +157,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>16</th>
       <td>30/9/2021</td>
       <td>6265</td>
       <td>285211</td>
@@ -173,7 +165,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>17</th>
       <td>1/10/2021</td>
       <td>6265</td>
       <td>285211</td>
@@ -181,7 +173,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>18</th>
       <td>2/10/2021</td>
       <td>6265</td>
       <td>285211</td>
@@ -189,7 +181,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>19</th>
       <td>3/10/2021</td>
       <td>6265</td>
       <td>285211</td>
@@ -197,7 +189,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>20</th>
       <td>4/10/2021</td>
       <td>6265</td>
       <td>294662</td>
@@ -205,7 +197,7 @@ aprendendo scrapy :)
       <td>86</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>21</th>
       <td>5/10/2021</td>
       <td>6265</td>
       <td>296182</td>
@@ -213,7 +205,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>22</th>
       <td>6/10/2021</td>
       <td>6265</td>
       <td>296182</td>
@@ -221,7 +213,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>23</th>
       <td>7/10/2021</td>
       <td>6265</td>
       <td>296292</td>
@@ -229,7 +221,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>24</th>
       <td>8/10/2021</td>
       <td>6265</td>
       <td>296292</td>
@@ -237,7 +229,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>25</th>
       <td>9/10/2021</td>
       <td>6265</td>
       <td>296292</td>
@@ -245,7 +237,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>26</th>
       <td>10/10/2021</td>
       <td>6265</td>
       <td>296292</td>
@@ -253,7 +245,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>27</th>
       <td>11/10/2021</td>
       <td>6265</td>
       <td>296292</td>
@@ -261,7 +253,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>30</th>
+      <th>28</th>
       <td>12/10/2021</td>
       <td>6265</td>
       <td>2962332</td>
@@ -269,7 +261,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>31</th>
+      <th>29</th>
       <td>13/10/2021</td>
       <td>6265</td>
       <td>2962332</td>
@@ -277,7 +269,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>32</th>
+      <th>30</th>
       <td>14/10/2021</td>
       <td>6265</td>
       <td>2962332</td>
@@ -285,7 +277,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>33</th>
+      <th>31</th>
       <td>15/10/2021</td>
       <td>6265</td>
       <td>2962332</td>
@@ -293,7 +285,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>34</th>
+      <th>32</th>
       <td>16/10/2021</td>
       <td>6265</td>
       <td>2962332</td>
@@ -301,7 +293,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>35</th>
+      <th>33</th>
       <td>17/10/2021</td>
       <td>6265</td>
       <td>2962332</td>
@@ -309,7 +301,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>36</th>
+      <th>34</th>
       <td>18/10/2021</td>
       <td>6265</td>
       <td>296420</td>
@@ -317,7 +309,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>37</th>
+      <th>35</th>
       <td>19/10/2021</td>
       <td>6265</td>
       <td>296420</td>
@@ -325,7 +317,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>38</th>
+      <th>36</th>
       <td>20/10/2021</td>
       <td>6265</td>
       <td>296420</td>
@@ -333,7 +325,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>39</th>
+      <th>37</th>
       <td>21/10/2021</td>
       <td>6265</td>
       <td>296420</td>
@@ -341,23 +333,23 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
+      <th>38</th>
+      <td>22/10/2021</td>
+      <td>6265</td>
+      <td>296420</td>
+      <td>187775</td>
+      <td>87</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>22/10/2021</td>
+      <td>6265</td>
+      <td>296420</td>
+      <td>187775</td>
+      <td>87</td>
+    </tr>
+    <tr>
       <th>40</th>
-      <td>22/10/2021</td>
-      <td>6265</td>
-      <td>296420</td>
-      <td>187775</td>
-      <td>87</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>22/10/2021</td>
-      <td>6265</td>
-      <td>296420</td>
-      <td>187775</td>
-      <td>87</td>
-    </tr>
-    <tr>
-      <th>42</th>
       <td>23/10/2021</td>
       <td>6265</td>
       <td>296420</td>
@@ -365,7 +357,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>43</th>
+      <th>41</th>
       <td>24/10/2021</td>
       <td>6265</td>
       <td>296420</td>
@@ -373,7 +365,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>44</th>
+      <th>42</th>
       <td>25/10/2021</td>
       <td>6265</td>
       <td>296420</td>
@@ -381,7 +373,7 @@ aprendendo scrapy :)
       <td>87</td>
     </tr>
     <tr>
-      <th>45</th>
+      <th>43</th>
       <td>1/11/2021</td>
       <td>6265</td>
       <td>305274</td>
@@ -389,7 +381,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>46</th>
+      <th>44</th>
       <td>2/11/2021</td>
       <td>6265</td>
       <td>305274</td>
@@ -397,7 +389,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>47</th>
+      <th>45</th>
       <td>3/11/2021</td>
       <td>6265</td>
       <td>305274</td>
@@ -405,7 +397,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>48</th>
+      <th>46</th>
       <td>4/11/2021</td>
       <td>6265</td>
       <td>305274</td>
@@ -413,7 +405,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>49</th>
+      <th>47</th>
       <td>5/11/2021</td>
       <td>6265</td>
       <td>305274</td>
@@ -421,7 +413,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>50</th>
+      <th>48</th>
       <td>6/11/2021</td>
       <td>6265</td>
       <td>305274</td>
@@ -429,7 +421,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>51</th>
+      <th>49</th>
       <td>7/11/2021</td>
       <td>6265</td>
       <td>305274</td>
@@ -437,7 +429,7 @@ aprendendo scrapy :)
       <td>90</td>
     </tr>
     <tr>
-      <th>52</th>
+      <th>50</th>
       <td>8/11/2021</td>
       <td>6265</td>
       <td>309365</td>
@@ -445,7 +437,7 @@ aprendendo scrapy :)
       <td>91</td>
     </tr>
     <tr>
-      <th>53</th>
+      <th>51</th>
       <td>9/11/2021</td>
       <td>6265</td>
       <td>309365</td>
@@ -453,23 +445,23 @@ aprendendo scrapy :)
       <td>91</td>
     </tr>
     <tr>
+      <th>52</th>
+      <td>10/11/2021</td>
+      <td>6265</td>
+      <td>309365</td>
+      <td>225873</td>
+      <td>91</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>10/11/2021</td>
+      <td>6265</td>
+      <td>309365</td>
+      <td>225873</td>
+      <td>91</td>
+    </tr>
+    <tr>
       <th>54</th>
-      <td>10/11/2021</td>
-      <td>6265</td>
-      <td>309365</td>
-      <td>225873</td>
-      <td>91</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>10/11/2021</td>
-      <td>6265</td>
-      <td>309365</td>
-      <td>225873</td>
-      <td>91</td>
-    </tr>
-    <tr>
-      <th>56</th>
       <td>11/11/2021</td>
       <td>6265</td>
       <td>309365</td>
@@ -477,7 +469,7 @@ aprendendo scrapy :)
       <td>91</td>
     </tr>
     <tr>
-      <th>57</th>
+      <th>55</th>
       <td>12/11/2021</td>
       <td>6265</td>
       <td>309365</td>
@@ -485,7 +477,7 @@ aprendendo scrapy :)
       <td>91</td>
     </tr>
     <tr>
-      <th>58</th>
+      <th>56</th>
       <td>15/11/2021</td>
       <td>6265</td>
       <td>309365</td>
@@ -493,7 +485,7 @@ aprendendo scrapy :)
       <td>91</td>
     </tr>
     <tr>
-      <th>59</th>
+      <th>57</th>
       <td>16/11/2021</td>
       <td>6265</td>
       <td>309365</td>
@@ -501,7 +493,7 @@ aprendendo scrapy :)
       <td>91</td>
     </tr>
     <tr>
-      <th>60</th>
+      <th>58</th>
       <td>17/11/2021</td>
       <td>6265</td>
       <td>309365</td>
@@ -509,7 +501,7 @@ aprendendo scrapy :)
       <td>91</td>
     </tr>
     <tr>
-      <th>61</th>
+      <th>59</th>
       <td>18/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -517,7 +509,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>62</th>
+      <th>60</th>
       <td>19/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -525,7 +517,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>63</th>
+      <th>61</th>
       <td>20/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -533,7 +525,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>64</th>
+      <th>62</th>
       <td>21/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -541,7 +533,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>65</th>
+      <th>63</th>
       <td>22/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -549,7 +541,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>66</th>
+      <th>64</th>
       <td>23/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -557,7 +549,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>67</th>
+      <th>65</th>
       <td>24/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -565,7 +557,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>68</th>
+      <th>66</th>
       <td>25/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -573,7 +565,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>69</th>
+      <th>67</th>
       <td>26/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -581,7 +573,7 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>70</th>
+      <th>68</th>
       <td>27/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -589,23 +581,23 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
+      <th>69</th>
+      <td>20/10/2021</td>
+      <td>6265</td>
+      <td>314433</td>
+      <td>240209</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>20/10/2021</td>
+      <td>6265</td>
+      <td>314433</td>
+      <td>240209</td>
+      <td>92</td>
+    </tr>
+    <tr>
       <th>71</th>
-      <td>20/10/2021</td>
-      <td>6265</td>
-      <td>314433</td>
-      <td>240209</td>
-      <td>92</td>
-    </tr>
-    <tr>
-      <th>72</th>
-      <td>20/10/2021</td>
-      <td>6265</td>
-      <td>314433</td>
-      <td>240209</td>
-      <td>92</td>
-    </tr>
-    <tr>
-      <th>73</th>
       <td>2/11/2021</td>
       <td>6265</td>
       <td>314433</td>
@@ -613,8 +605,24 @@ aprendendo scrapy :)
       <td>92</td>
     </tr>
     <tr>
-      <th>74</th>
+      <th>72</th>
       <td>29/11/2021</td>
+      <td>6265</td>
+      <td>314433</td>
+      <td>240209</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>29/11/2021</td>
+      <td>6265</td>
+      <td>314433</td>
+      <td>240209</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>30/11/2021</td>
       <td>6265</td>
       <td>314433</td>
       <td>240209</td>
@@ -622,22 +630,6 @@ aprendendo scrapy :)
     </tr>
     <tr>
       <th>75</th>
-      <td>29/11/2021</td>
-      <td>6265</td>
-      <td>314433</td>
-      <td>240209</td>
-      <td>92</td>
-    </tr>
-    <tr>
-      <th>76</th>
-      <td>30/11/2021</td>
-      <td>6265</td>
-      <td>314433</td>
-      <td>240209</td>
-      <td>92</td>
-    </tr>
-    <tr>
-      <th>77</th>
       <td>1/12/2021</td>
       <td>6265</td>
       <td>320867</td>
@@ -645,7 +637,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>78</th>
+      <th>76</th>
       <td>20/10/2021</td>
       <td>6265</td>
       <td>320867</td>
@@ -653,7 +645,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>79</th>
+      <th>77</th>
       <td>2/12/2021</td>
       <td>6265</td>
       <td>320867</td>
@@ -661,7 +653,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>80</th>
+      <th>78</th>
       <td>3/12/2021</td>
       <td>6265</td>
       <td>320867</td>
@@ -669,7 +661,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>81</th>
+      <th>79</th>
       <td>4/12/2021</td>
       <td>6265</td>
       <td>320867</td>
@@ -677,7 +669,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>82</th>
+      <th>80</th>
       <td>5/12/2021</td>
       <td>6265</td>
       <td>320867</td>
@@ -685,7 +677,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>83</th>
+      <th>81</th>
       <td>6/12/2021</td>
       <td>6265</td>
       <td>320867</td>
@@ -693,7 +685,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>84</th>
+      <th>82</th>
       <td>7/12/2021</td>
       <td>6265</td>
       <td>328209</td>
@@ -701,7 +693,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>85</th>
+      <th>83</th>
       <td>8/12/2021</td>
       <td>6265</td>
       <td>328209</td>
@@ -709,7 +701,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>86</th>
+      <th>84</th>
       <td>9/12/2021</td>
       <td>6265</td>
       <td>328209</td>
@@ -717,7 +709,7 @@ aprendendo scrapy :)
       <td>94</td>
     </tr>
     <tr>
-      <th>87</th>
+      <th>85</th>
       <td>10/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -725,7 +717,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>86</th>
       <td>11/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -733,7 +725,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>87</th>
       <td>12/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -741,7 +733,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>88</th>
       <td>13/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -749,7 +741,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>91</th>
+      <th>89</th>
       <td>14/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -757,7 +749,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>92</th>
+      <th>90</th>
       <td>15/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -765,7 +757,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>93</th>
+      <th>91</th>
       <td>16/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -773,7 +765,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>94</th>
+      <th>92</th>
       <td>17/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -781,7 +773,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>95</th>
+      <th>93</th>
       <td>18/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -789,7 +781,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>96</th>
+      <th>94</th>
       <td>19/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -797,7 +789,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>97</th>
+      <th>95</th>
       <td>20/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -805,7 +797,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>98</th>
+      <th>96</th>
       <td>21/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -813,7 +805,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>99</th>
+      <th>97</th>
       <td>22/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -821,7 +813,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>100</th>
+      <th>98</th>
       <td>23/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -829,7 +821,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>101</th>
+      <th>99</th>
       <td>30/11/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -837,23 +829,23 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
+      <th>100</th>
+      <td>24/12/2021</td>
+      <td>6265</td>
+      <td>329369</td>
+      <td>266306</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>24/12/2021</td>
+      <td>6265</td>
+      <td>329369</td>
+      <td>266306</td>
+      <td>95</td>
+    </tr>
+    <tr>
       <th>102</th>
-      <td>24/12/2021</td>
-      <td>6265</td>
-      <td>329369</td>
-      <td>266306</td>
-      <td>95</td>
-    </tr>
-    <tr>
-      <th>103</th>
-      <td>24/12/2021</td>
-      <td>6265</td>
-      <td>329369</td>
-      <td>266306</td>
-      <td>95</td>
-    </tr>
-    <tr>
-      <th>104</th>
       <td>25/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -861,7 +853,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>105</th>
+      <th>103</th>
       <td>26/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -869,7 +861,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>106</th>
+      <th>104</th>
       <td>27/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -877,7 +869,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>107</th>
+      <th>105</th>
       <td>28/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -885,7 +877,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>108</th>
+      <th>106</th>
       <td>29/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -893,7 +885,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>109</th>
+      <th>107</th>
       <td>30/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -901,7 +893,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>110</th>
+      <th>108</th>
       <td>31/12/2021</td>
       <td>6265</td>
       <td>329369</td>
@@ -909,7 +901,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>111</th>
+      <th>109</th>
       <td>1/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -917,7 +909,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>112</th>
+      <th>110</th>
       <td>2/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -925,7 +917,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>113</th>
+      <th>111</th>
       <td>3/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -933,7 +925,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>114</th>
+      <th>112</th>
       <td>4/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -941,7 +933,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>115</th>
+      <th>113</th>
       <td>5/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -949,7 +941,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>116</th>
+      <th>114</th>
       <td>6/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -957,7 +949,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>117</th>
+      <th>115</th>
       <td>7/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -965,7 +957,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>118</th>
+      <th>116</th>
       <td>8/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -973,7 +965,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>119</th>
+      <th>117</th>
       <td>9/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -981,7 +973,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>120</th>
+      <th>118</th>
       <td>10/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -989,7 +981,7 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>121</th>
+      <th>119</th>
       <td>11/1/2022</td>
       <td>6265</td>
       <td>329369</td>
@@ -997,8 +989,24 @@ aprendendo scrapy :)
       <td>95</td>
     </tr>
     <tr>
-      <th>122</th>
+      <th>120</th>
       <td>12/1/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>121</th>
+      <td>13/1/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>14/1/2022</td>
       <td>6265</td>
       <td>332010</td>
       <td>307076</td>
@@ -1006,7 +1014,7 @@ aprendendo scrapy :)
     </tr>
     <tr>
       <th>123</th>
-      <td>13/1/2022</td>
+      <td>15/1/2022</td>
       <td>6265</td>
       <td>332010</td>
       <td>307076</td>
@@ -1014,7 +1022,7 @@ aprendendo scrapy :)
     </tr>
     <tr>
       <th>124</th>
-      <td>14/1/2022</td>
+      <td>16/1/2022</td>
       <td>6265</td>
       <td>332010</td>
       <td>307076</td>
@@ -1022,22 +1030,6 @@ aprendendo scrapy :)
     </tr>
     <tr>
       <th>125</th>
-      <td>15/1/2022</td>
-      <td>6265</td>
-      <td>332010</td>
-      <td>307076</td>
-      <td>96</td>
-    </tr>
-    <tr>
-      <th>126</th>
-      <td>16/1/2022</td>
-      <td>6265</td>
-      <td>332010</td>
-      <td>307076</td>
-      <td>96</td>
-    </tr>
-    <tr>
-      <th>127</th>
       <td>17/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1045,7 +1037,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>128</th>
+      <th>126</th>
       <td>18/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1053,7 +1045,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>129</th>
+      <th>127</th>
       <td>19/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1061,7 +1053,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>130</th>
+      <th>128</th>
       <td>20/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1069,7 +1061,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>131</th>
+      <th>129</th>
       <td>21/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1077,7 +1069,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>132</th>
+      <th>130</th>
       <td>22/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1085,7 +1077,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>133</th>
+      <th>131</th>
       <td>23/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1093,7 +1085,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>134</th>
+      <th>132</th>
       <td>24/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1101,7 +1093,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>135</th>
+      <th>133</th>
       <td>25/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1109,7 +1101,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>136</th>
+      <th>134</th>
       <td>26/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1117,7 +1109,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>137</th>
+      <th>135</th>
       <td>27/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1125,7 +1117,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>138</th>
+      <th>136</th>
       <td>28/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1133,7 +1125,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>139</th>
+      <th>137</th>
       <td>12/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1141,7 +1133,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>140</th>
+      <th>138</th>
       <td>13/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1149,7 +1141,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>141</th>
+      <th>139</th>
       <td>14/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1157,7 +1149,7 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>142</th>
+      <th>140</th>
       <td>15/1/2022</td>
       <td>6265</td>
       <td>332010</td>
@@ -1165,13 +1157,75 @@ aprendendo scrapy :)
       <td>96</td>
     </tr>
     <tr>
-      <th>143</th>
+      <th>141</th>
       <td>16/1/2022</td>
       <td>6265</td>
       <td>332010</td>
       <td>307076</td>
       <td>96</td>
     </tr>
+    <tr>
+      <th>142</th>
+      <td>17/1/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>143</th>
+      <td>3/2/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>144</th>
+      <td>4/2/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>5/2/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>6/2/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>7/2/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>8/2/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>9/2/2022</td>
+      <td>6265</td>
+      <td>332010</td>
+      <td>307076</td>
+      <td>96</td>
+    </tr>
   </tbody>
-</table>
-    

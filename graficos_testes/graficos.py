@@ -60,13 +60,13 @@ def mediaPordata(titulo,dado,ponto0,ponto1):
     return media    
 
 
-media = mediaPordata("doses unicas",doseUnica,'05/09/2021','011/01/2022')
+media = mediaPordata("doses unicas",doseUnica,'06/09/2021','011/01/2022')
 print(media)
-media = mediaPordata("1 doses",v1dose,'05/09/2021','011/01/2022')
+media = mediaPordata("1 doses",v1dose,'06/09/2021','011/01/2022')
 print(media)
-media = mediaPordata("2 dose ",v2dose,'05/09/2021','011/01/2022')
+media = mediaPordata("2 dose ",v2dose,'06/09/2021','011/01/2022')
 print(media)
-media = mediaPordata("total em % ",totalv,'05/09/2021','011/01/2022')
+media = mediaPordata("total em % ",totalv,'06/09/2021','011/01/2022')
 
 
 print(media)

@@ -1,12 +1,5 @@
 [
  {
-  "Data": "5/9/2021",
-  "Doses Unicas": 6260,
-  "Dose 1": 258714,
-  "Dose 2": 95869,
-  "Total percentagem": 86
- },
- {
   "Data": "6/9/2021",
   "Doses Unicas": 6260,
   "Dose 1": 263318,
@@ -995,6 +988,62 @@
  },
  {
   "Data": "16/1/2022",
+  "Doses Unicas": 6265,
+  "Dose 1": 332010,
+  "Dose 2": 307076,
+  "Total percentagem": 96
+ },
+ {
+  "Data": "17/1/2022",
+  "Doses Unicas": 6265,
+  "Dose 1": 332010,
+  "Dose 2": 307076,
+  "Total percentagem": 96
+ },
+ {
+  "Data": "3/2/2022",
+  "Doses Unicas": 6265,
+  "Dose 1": 332010,
+  "Dose 2": 307076,
+  "Total percentagem": 96
+ },
+ {
+  "Data": "4/2/2022",
+  "Doses Unicas": 6265,
+  "Dose 1": 332010,
+  "Dose 2": 307076,
+  "Total percentagem": 96
+ },
+ {
+  "Data": "5/2/2022",
+  "Doses Unicas": 6265,
+  "Dose 1": 332010,
+  "Dose 2": 307076,
+  "Total percentagem": 96
+ },
+ {
+  "Data": "6/2/2022",
+  "Doses Unicas": 6265,
+  "Dose 1": 332010,
+  "Dose 2": 307076,
+  "Total percentagem": 96
+ },
+ {
+  "Data": "7/2/2022",
+  "Doses Unicas": 6265,
+  "Dose 1": 332010,
+  "Dose 2": 307076,
+  "Total percentagem": 96
+ },
+ {
+  "Data": "8/2/2022",
+  "Doses Unicas": 6265,
+  "Dose 1": 332010,
+  "Dose 2": 307076,
+  "Total percentagem": 96
+ },
+ {
+  "Data": "9/2/2022",
   "Doses Unicas": 6265,
   "Dose 1": 332010,
   "Dose 2": 307076,

@@ -1,10 +1,10 @@
 # Covid-cg-br
 scraping de dados do covid-19 na cidade
 aprendendo scrapy :)
-- [ ] https://github.com/holand76/Covid-cg-br/issues/4
+- [x] https://github.com/holand76/Covid-cg-br/issues/4
 - [ ] https://github.com/holand76/Covid-cg-br/issues/5
-- [ ] https://github.com/holand76/Covid-cg-br/issues/6
-- [ ] tabela html dos dados em um dataframe
+- [x] https://github.com/holand76/Covid-cg-br/issues/6
+- [x] tabela html dos dados em um dataframe
 - [ ] update todos os dias
 <div>
 <img src = "https://img.shields.io/badge/Scrapy-v--2.5.1-yelllow"/>

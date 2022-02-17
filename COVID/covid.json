@@ -312,3 +312,6 @@
 ][
 {"014/02/2022": ["<h1 class=\"titulo-recebidas-aplicadas\">Total de <b>doses \u00fanicas</b> aplicadas</h1>", "<h1 class=\"titulo-recebidas-aplicadas\">Total de <b>1\u00aa doses</b> aplicadas</h1>", "<h1 class=\"titulo-recebidas-aplicadas\">Total de <b>2\u00aa doses</b> aplicadas</h1>", "<h1 class=\"titulo-recebidas-aplicadas\">Percentual da popula\u00e7\u00e3o vacinada</h1>"], "value": ["<h2 class=\"valor-recebidas-aplicadas\">6265</h2>", "<h2 class=\"valor-recebidas-aplicadas\">332010</h2>", "<h2 class=\"valor-recebidas-aplicadas\">307076</h2>", "<h2 class=\"valor-recebidas-aplicadas\">96%</h2>"]}
 ]
+[
+{"017/02/2022": ["<h1 class=\"titulo-recebidas-aplicadas\">Total de <b>doses \u00fanicas</b> aplicadas</h1>", "<h1 class=\"titulo-recebidas-aplicadas\">Total de <b>1\u00aa doses</b> aplicadas</h1>", "<h1 class=\"titulo-recebidas-aplicadas\">Total de <b>2\u00aa doses</b> aplicadas</h1>", "<h1 class=\"titulo-recebidas-aplicadas\">Percentual da popula\u00e7\u00e3o vacinada</h1>"], "value": ["<h2 class=\"valor-recebidas-aplicadas\">6265</h2>", "<h2 class=\"valor-recebidas-aplicadas\">332010</h2>", "<h2 class=\"valor-recebidas-aplicadas\">307076</h2>", "<h2 class=\"valor-recebidas-aplicadas\">96%</h2>"]}
+]

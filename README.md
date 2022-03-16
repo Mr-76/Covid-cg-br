@@ -2,7 +2,7 @@
 scraping de dados do covid-19 na cidade
 aprendendo scrapy :)
 - [x] https://github.com/holand76/Covid-cg-br/issues/4
-- [ ] https://github.com/holand76/Covid-cg-br/issues/5
+- [x] https://github.com/holand76/Covid-cg-br/issues/5
 - [x] https://github.com/holand76/Covid-cg-br/issues/6
 - [x] tabela html dos dados em um dataframe
 - [ ] update todos os dias

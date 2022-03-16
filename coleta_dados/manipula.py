@@ -30,10 +30,10 @@ def compara_cdata_duplicates(data_frame,tipo1,tipo2):
     return concatena_colunas
 
     
-U_D = compara_cdata_duplicates(dados,"Doses Unicas","Data")
-D1_D = compara_cdata_duplicates(dados,"Dose 1","Data")
-D2_D = compara_cdata_duplicates(dados,"Dose 2","Data")
-TP_D = compara_cdata_duplicates(dados,"Total percentagem","Data")
+U_D = compara_cdata_duplicates(dados,"Total de doses únicas aplicadas","Data")
+D1_D = compara_cdata_duplicates(dados,"Total de 1ª doses aplicadas","Data")
+D2_D = compara_cdata_duplicates(dados,"Total de 2ª doses aplicadas","Data")
+TP_D = compara_cdata_duplicates(dados,"Percentual da população vacinada","Data")
 lista_time_stamp = cria_df_time_stamp(dados)
 print(U_D,"\n\n",D1_D,"\n\n",D2_D,"\n\n",TP_D)
 

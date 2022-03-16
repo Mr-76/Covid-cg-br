@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/alarm/GIT/Covid-cg-br/COVID
-scrapy crawl covid -o covid.json
-
+cd /home/shadow/GIT/Covid-cg-br/COVID
+python coleta.py
+cp dados.json backup_de_dados/

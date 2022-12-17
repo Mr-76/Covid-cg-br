@@ -23,13 +23,13 @@ def compara_cdata_duplicates(data_frame,tipo1,tipo2):
     coluna1 = pd.DataFrame(data_frame[tipo1])
 
     concatena_colunas = coluna1.assign(data = data_frame[tipo2])
-    
+
     concatena_colunas = concatena_colunas.drop_duplicates(tipo1)
 
-    
+
     return concatena_colunas
 
-    
+
 U_D = compara_cdata_duplicates(dados,"Total de doses únicas aplicadas","Data")
 D1_D = compara_cdata_duplicates(dados,"Total de 1ª doses aplicadas","Data")
 D2_D = compara_cdata_duplicates(dados,"Total de 2ª doses aplicadas","Data")

@@ -5,8 +5,7 @@ from bs4 import BeautifulSoup
 
 
 def cria_dict(data,lista_texto_valores,lista_valores):
-    dicionario_para_json = {}
-    dicionario_para_json["Data"] = data
+    dicionario_para_json = {"Data": data}
     for i, item in enumerate(lista_texto_valores):
         dicionario_para_json[item.text] = lista_valores[i]
     return dicionario_para_json

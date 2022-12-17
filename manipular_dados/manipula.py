@@ -5,9 +5,7 @@ dados = pd.read_json("dados.json")
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 def cria_df_time_stamp(data_frame):
-    """
-    cria um dataframe com timestamps
-    """
+    """cria um dataframe com timestamps"""
     datas = pd.to_datetime(data_frame["Data"],format='%d/%m/%Y')
     data_frame_datas_timestamp = datas.to_frame() 
     return (data_frame_datas_timestamp)

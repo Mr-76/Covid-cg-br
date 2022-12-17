@@ -26,7 +26,7 @@ def escreve_lista_js(lista_dicionario,nome):
 
 file_name = "dados.json"
 DATA_TODAY = datetime.now() 
-DATA_TODAY = ("{}/{}/{}").format(DATA_TODAY.day,DATA_TODAY.month,DATA_TODAY.year)
+DATA_TODAY = f"{DATA_TODAY.day}/{DATA_TODAY.month}/{DATA_TODAY.year}"
 parser = 'html.parser'
 pagina_web = requests.get('https://campinagrande.pb.gov.br/')
 pagina_soup = BeautifulSoup(pagina_web.text,parser)

@@ -11,11 +11,11 @@ def cria_dict(data,lista_texto_valores,lista_valores):
         dicionario_para_json[item.text] = lista_valores[i]
     return dicionario_para_json
 
-def load_dados_json(nome_file,dicionario_web): 
-    with open(nome_file,'r') as file:
+def load_dados_json(name_file,dicionario_web): 
+    with open(name_file,'r') as file:
         lista_dict_total = json.load(file)
     lista_dict_total.append(dicionario_web)    
-    escreve_lista_js(lista_dict_total,nome_file)
+    escreve_lista_js(lista_dict_total,name_file)
 
 
 def escreve_lista_js(lista_dicionario,nome):
